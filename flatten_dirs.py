@@ -32,4 +32,3 @@ for artist in os.listdir("./"):
             if ds == '.DS_Store':
                 os.remove(f"{artist_dir}/{ds}")
         os.rmdir(artist_dir)
-
